@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
- //Actualizacion HOLASIQUETAL
+ //Actualizacion HOLASIQUETAL MALDITA SEA AGARRA
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
