@@ -12,38 +12,50 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        app:srcCompat="@drawable/iconop" />
+        app:srcCompat="@drawable/iconop" android:contentDescription="@string/todo" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txt_usuarioP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Usuario" />
+        android:inputType="text"
+        android:hint="@string/usuario" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txt_passwordP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/editText"
-        android:layout_below="@+id/editText"
+        android:layout_alignEnd="@+id/txt_usuarioP"
+        android:layout_below="@+id/txt_usuarioP"
         android:layout_marginTop="35dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Usuario" />
+        android:hint="@string/usuario" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_ingresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/txt_passwordP"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
-        android:text="Ingresar "
+        android:text="@string/ingresar"
         android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tview_registrarP"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/button_ingresar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:onClick="onClick"
+        android:text="@string/registrar"
+        android:textAlignment="center"
+        android:textColor="@color/NEGRO" />
 
 </RelativeLayout>

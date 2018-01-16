@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.mac1.myapplication.MainActivity">
-
 
     <TextView
         android:id="@+id/textView"
@@ -16,23 +15,20 @@
         android:layout_marginBottom="40dp"
         android:layout_marginStart="17dp"
         android:layout_toEndOf="@+id/buttonDocente"
-        android:layout_weight="1"
-        android:text="DOCENTE"
-        android:textColor="@color/NEGRO"/>
+        android:text="@string/docente"
+        android:textColor="@color/NEGRO" />
 
     <ImageView
         android:id="@+id/buttonDocente"
-        android:layout_width="200dp"
-        android:layout_height="160dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_above="@+id/buttonAlumno"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView4"
-        android:layout_gravity="right"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="63dp"
-        android:layout_weight="1"
-        android:src="@drawable/maestro"
+        android:layout_gravity="start"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="15dp"
         android:onClick="onClick"
-       />
+        android:src="@drawable/maestro" android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/buttonAlumno"
@@ -40,7 +36,7 @@
         android:layout_height="160dp"
         android:layout_alignBottom="@+id/textView3"
         android:layout_alignStart="@+id/buttonDocente"
-        android:src="@drawable/estudiante" />
+        android:src="@drawable/estudiante" android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView2"
@@ -49,9 +45,8 @@
         android:layout_alignBottom="@+id/buttonAlumno"
         android:layout_alignStart="@+id/textView"
         android:layout_marginBottom="48dp"
-        android:text="ALUMNO"
-        android:textColor="@color/NEGRO"
-        />
+        android:text="@string/alumno"
+        android:textColor="@color/NEGRO" />
 
     <TextView
         android:id="@+id/textView3"
@@ -61,8 +56,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="60dp"
         android:layout_marginEnd="19dp"
-        android:text=""
-        />
+        android:text="" />
 
     <TextView
         android:id="@+id/textView4"
@@ -71,9 +65,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="11dp"
-        android:text="Seleccione su tipo de usuario"
-        android:textColor="@color/colorPrimary"
-        />
+        android:text="@string/seleccione_su_tipo_de_usuario"
+        android:textColor="@color/colorPrimary" />
 
 </RelativeLayout>
 

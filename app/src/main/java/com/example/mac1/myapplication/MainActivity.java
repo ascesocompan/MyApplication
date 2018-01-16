@@ -19,4 +19,5 @@ public class MainActivity extends AppCompatActivity {
         Intent miIntent=new Intent(MainActivity.this,MaestroLogginActivity.class);
         startActivity(miIntent);
     }
+
 }
