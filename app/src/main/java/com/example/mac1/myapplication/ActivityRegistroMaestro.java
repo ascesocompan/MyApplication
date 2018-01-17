@@ -13,4 +13,7 @@ public class ActivityRegistroMaestro extends AppCompatActivity {
     }
 
 
+    public void onClick(View view) {
+
+    }
 }

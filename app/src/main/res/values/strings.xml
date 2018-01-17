@@ -18,4 +18,20 @@
     <string name="ingresar">Ingresar</string>
     <string name="registrar">Registrar</string>
     <string name="todo">TODO</string>
+    <string name="title_activity_docente_menu">activity_docente_menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="fecha_de_asesoria">Fecha de asesoria</string>
+    <string name="seleccione_la_fecha">Seleccione la fecha:</string>
+    <string name="ingrese_la_hora_de_inicio">Ingrese la hora de inicio</string>
+    <string name="ingrese_la_hora_final">Ingrese la hora final</string>
+    <string name="introduzca_el_cubiculo">Introduzca el cubiculo</string>
+    <string name="numero_maximo_de_alumnos">Numero maximo de alumnos</string>
 </resources>

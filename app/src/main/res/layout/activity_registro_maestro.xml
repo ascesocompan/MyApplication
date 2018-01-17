@@ -86,7 +86,8 @@
         android:layout_marginBottom="15dp"
         android:background="@color/colorPrimary"
         android:hint="@string/registrar"
-        android:textColor="@color/NEGRO" />
+        android:textColor="@color/NEGRO"
+        android:onClick="onClick"/>
 
 
 </RelativeLayout>

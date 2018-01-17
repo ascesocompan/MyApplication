@@ -14,7 +14,19 @@ public class MaestroLogginActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        Intent miIntent=new Intent(MaestroLogginActivity.this,ActivityRegistroMaestro.class);
-        startActivity(miIntent);
+
+        switch (view.getId()) {
+            case  R.id.tview_registrarP:
+                Intent intent = new Intent(this, ActivityRegistroMaestro.class);
+                startActivity(intent);
+                break;
+            case R.id.button_ingresar:
+                Intent intent2 = new Intent(this, activity_docente_menu.class);
+                startActivity(intent2);
+                break;
+
+            default:
+                break;
     }
+}
 }
