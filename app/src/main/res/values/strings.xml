@@ -34,4 +34,5 @@
     <string name="ingrese_la_hora_final">Ingrese la hora final</string>
     <string name="introduzca_el_cubiculo">Introduzca el cubiculo</string>
     <string name="numero_maximo_de_alumnos">Numero maximo de alumnos</string>
+    <string name="guias" />
 </resources>

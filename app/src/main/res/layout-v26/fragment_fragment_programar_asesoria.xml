@@ -1,5 +1,4 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,8 +25,7 @@
         android:layout_height="380dp"
         android:layout_below="@+id/textView6"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="11dp"
-        android:headerBackground="@color/colorPrimary" />
+        android:layout_marginTop="11dp" />
 
     <EditText
         android:id="@+id/editText4"
@@ -75,16 +73,15 @@
         android:hint="@string/numero_maximo_de_alumnos"
         android:inputType="number" />
 
-    <fr.ganfra.materialspinner.MaterialSpinner
+    <Spinner
         android:id="@+id/spinner"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/editText7"
         android:layout_below="@+id/editText7"
         android:layout_marginTop="45dp"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:ms_floatingLabelText="Introduzca"
-        app:ms_hint="Area de conocimientos"
+        android:autofillHints="Materia"
+
         />
 
 

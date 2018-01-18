@@ -2,6 +2,7 @@
 <resources>
 
     <string-array name="Opciones">
+    
     <item>Fisico-Matematicas</item>
         <item>Ciencias sociales y administrativas </item>
         <item>Medico-Biologicas</item>
