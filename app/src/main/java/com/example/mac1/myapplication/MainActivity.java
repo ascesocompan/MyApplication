@@ -16,8 +16,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        Intent miIntent=new Intent(MainActivity.this,MaestroLogginActivity.class);
-        startActivity(miIntent);
+        switch (view.getId()) {
+            case  R.id.buttonDocente:
+                Intent intent = new Intent(MainActivity.this, MaestroLogginActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.buttonAlumno:
+                Intent intent2 = new Intent(MainActivity.this, AlumnoLogginActivity.class);
+                startActivity(intent2);
+                break;
+
+            default:
+                break;
+        }
     }
 
 }

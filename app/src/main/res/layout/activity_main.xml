@@ -36,7 +36,8 @@
         android:layout_height="160dp"
         android:layout_alignBottom="@+id/textView3"
         android:layout_alignStart="@+id/buttonDocente"
-        android:src="@drawable/estudiante" android:contentDescription="@string/todo" />
+        android:src="@drawable/estudiante" android:contentDescription="@string/todo"
+        android:onClick="onClick"/>
 
     <TextView
         android:id="@+id/textView2"

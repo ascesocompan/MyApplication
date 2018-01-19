@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mac1.myapplication.MaestroLogginActivity">
+    tools:context="com.example.mac1.myapplication.AlumnoLogginActivity">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="180dp"
@@ -12,10 +12,10 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        app:srcCompat="@drawable/iconop" android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/iconom" android:contentDescription="@string/todo" />
 
     <EditText
-        android:id="@+id/txt_usuarioP"
+        android:id="@+id/txt_usuarioA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
@@ -26,21 +26,21 @@
         android:hint="@string/usuario" />
 
     <EditText
-        android:id="@+id/txt_passwordP"
+        android:id="@+id/txt_passwordA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/txt_usuarioP"
-        android:layout_below="@+id/txt_usuarioP"
+        android:layout_alignEnd="@+id/txt_usuarioA"
+        android:layout_below="@+id/txt_usuarioA"
         android:layout_marginTop="35dp"
         android:ems="10"
         android:inputType="textPassword"
         android:hint="@string/contrase_a" />
 
     <Button
-        android:id="@+id/button_ingresar"
+        android:id="@+id/button_ingresarA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txt_passwordP"
+        android:layout_below="@+id/txt_passwordA"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
         android:text="@string/ingresar"
@@ -48,15 +48,14 @@
         android:onClick="onClick"/>
 
     <TextView
-        android:id="@+id/tview_registrarP"
+        android:id="@+id/tview_registrarA"
         android:layout_width="80dp"
         android:layout_height="20dp"
-        android:layout_below="@+id/button_ingresar"
+        android:layout_below="@+id/button_ingresarA"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:onClick="onClick"
         android:text="@string/registrar"
         android:textAlignment="center"
         android:textColor="@color/NEGRO" />
-
 </RelativeLayout>

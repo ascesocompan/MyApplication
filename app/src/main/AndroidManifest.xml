@@ -21,6 +21,12 @@
         <activity
             android:name=".activity_docente_menu"
             android:label="@string/title_activity_docente_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AlumnoLogginActivity" />
+        <activity android:name=".ActivityRegistroAlumno" />
+        <activity
+            android:name=".activity_alumno_menu"
+            android:label="@string/title_activity_alumno_menu"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

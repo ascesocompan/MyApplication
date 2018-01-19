@@ -18,7 +18,7 @@
     <string name="ingresar">Ingresar</string>
     <string name="registrar">Registrar</string>
     <string name="todo">TODO</string>
-    <string name="title_activity_docente_menu">activity_docente_menu</string>
+    <string name="title_activity_docente_menu">AscesoMA</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -35,4 +35,5 @@
     <string name="introduzca_el_cubiculo">Introduzca el cubiculo</string>
     <string name="numero_maximo_de_alumnos">Numero maximo de alumnos</string>
     <string name="guias" />
+    <string name="title_activity_alumno_menu">activity_alumno_menu</string>
 </resources>

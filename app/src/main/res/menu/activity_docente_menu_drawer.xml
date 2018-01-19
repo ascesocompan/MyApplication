@@ -9,7 +9,7 @@
         <menu>
         <item
             android:id="@+id/ProgramarA"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@mipmap/ic_launcher"
             android:title="Programar asesoria " />
         <item
             android:id="@+id/VisualizarA"
@@ -24,11 +24,11 @@
         <menu>
             <item
                 android:id="@+id/SubirGuia"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@mipmap/ic_launcher"
                 android:title="Subir guia" />
             <item
                 android:id="@+id/EliminarGuia"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@mipmap/ic_launcher"
                 android:title="Eliminar guia" />
         </menu>
     </item>
